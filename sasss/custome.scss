@@ -1,0 +1,32 @@
+
+$font-family-sans-serif: 'Bitter', serif;
+
+$primary:#733FC8;
+$success: #49556B;
+$dark: #18202D;
+$secondary: #EDF2F8;
+
+@media (min-width: 992px) {
+    .alto-100{
+        height: 100vh;
+    }
+}
+
+.d-flex img {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background-image: url(https://us.123rf.com/450wm/mblach/mblach1609/mblach160900065/63955239-pared-de-ladrillo-de-color-blanco-de-fondo.jpg?ver=6)    
+}
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px, 
+    lg: 960px, 
+    xl: 960px, 
+    xxl: 960px
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
